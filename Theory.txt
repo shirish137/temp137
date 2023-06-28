@@ -1,0 +1,62 @@
+What is Bootstrap?
+=================
+Bootstrap is a CSS framework that has predefined classes which 
+can be used to develope UI.
+
+Linking Bootstrap 
+1) Offline
+   1) Go to www.getbootstrap.com 
+   2) Go to documentation 
+   3) download css and js files in static/css and static/js 
+   4)
+2) Online
+
+
+
+Layout 
+=====
+Bootstrap is 12 column grid structure.
+Means web page is divided into 12 columns.
+
+layout of a webopage 
+container
+
+
+Screens in Ecomm Project 
+=======================
+1) Login Screen
+2) Register Screen 
+3) Product view screen -
+
+   <---col-md-3-----><-----------col-md-9------------->
+                    |
+      Filters       |
+      1)cat         |
+      2)price       |
+      
+      sort by price |
+   1) high to low   |
+   2) low to high   |
+
+4) Product detail page 
+5) cart page 
+6) place order page.
+
+spacing(margin and padding)
+
+css            class in Bootstrap
+margin-top     mt-(1 to 5)
+margin-bottom  mb-(1 to 5) 
+marging-left   ms-(1 to 5) 
+margin-right   me-(1 to 5) 
+               mx          e.g mx-auto
+               my
+
+
+
+cart.html 
+               col-md-9
+<--------------------------------------->|<----col-md-3------>
+    user details                         | Total Price section
+                                         |
+    product details                      |
